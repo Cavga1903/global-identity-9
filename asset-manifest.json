@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/global-identity-9/static/css/main.3a6d3bed.css",
+    "main.js": "/global-identity-9/static/js/main.ee025ba5.js",
+    "static/media/barcode_49681290_9185570.png": "/global-identity-9/static/media/barcode_49681290_9185570.d409ee8d0ae0a7f8773b.png",
+    "index.html": "/global-identity-9/index.html",
+    "main.3a6d3bed.css.map": "/global-identity-9/static/css/main.3a6d3bed.css.map",
+    "main.ee025ba5.js.map": "/global-identity-9/static/js/main.ee025ba5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a6d3bed.css",
+    "static/js/main.ee025ba5.js"
+  ]
+}
