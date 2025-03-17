@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LanguageIcon from "@mui/icons-material/LanguageRounded"; // MUI ikonu
 import Barcode from "../components/assets/barcode_49681290_9185570.png"; // barcode imported
-// import cardHolder from "../components/assets/IDCardMockup.png"; // bg imported
+// import cardHolder from "../components/assets/IDCardMockup.png"; // bg import
 
 
 const countries = [
