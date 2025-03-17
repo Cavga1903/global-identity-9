@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import LanguageIcon from "@mui/icons-material/LanguageRounded"; // MUI ikonu
-import Barcode from "../components/assets/barcode_49681290_9185570.png"; // barcode imported
-// import cardHolder from "../components/assets/IDCardMockup.png"; // bg import
+import Barcode from "../components/assets/barcode_49681290_9185570.png"; // photo importu
+// import cardHolder from "../components/assets/IDCardMockup.png"; // photo importu
 
 
 const countries = [
@@ -15,10 +15,10 @@ export default function IdentityCard() {
 
   return (
     
-    <div className="flex flex-col lg:flex-row gap-6 justify-center items-center min-h-screen bg-gradient-to-r from-green-100 to-green px-4">
+    <div className="flex flex-col lg:flex-row gap-5 justify-center items-center min-h-screen bg-gradient-to-r from-green-100 to-green px-4">
     {/* 📌 background image */}
 
-    <div className="bg-white shadow-2xl rounded-xl w-full max-w-[90%] md:max-w-[700px] lg:max-w-[800px] h-auto flex flex-col sm:flex-row overflow-hidden relative border border-gray-200">
+    <div className="bg-white shadow-2xl rounded-xl w-full max-w-[90%] md:max-w-[700px] lg:max-w-[600px] h-auto flex flex-col sm:flex-row overflow-hidden relative border border-gray-200">
         {/* left side */}
         <div className="w-full sm:w-1/2 p-4 sm:p-6 relative bg-white">
           {/* The top part of the left side */}
