@@ -1,46 +1,188 @@
-# Getting Started with Create React App
+# Global Identity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Global Identity, kullanıcıların kimlik bilgilerini yönetmelerini ve hedef ülkelerini seçmelerini sağlayan bir React uygulamasıdır.
 
-## Available Scripts
+## 🚀 Proje Kurulumu
 
-In the project directory, you can run:
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 
-### `npm start`
+### 1️⃣ Depoyu Klonlayın
+```bash
+git clone https://github.com/kullaniciadi/global-identity.git
+cd global-identity
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 2️⃣ Gerekli Paketleri Yükleyin
+```bash
+npm install
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 3️⃣ Tailwind CSS Yapılandırması
+Tailwind'in çalıştığından emin olmak için `tailwind.config.js` ve `postcss.config.js` dosyalarının oluşturulduğunu doğrulayın:
+```bash
+npx tailwindcss init -p
+```
+Eğer Tailwind CSS yüklenmemişse, şu komutla yükleyebilirsiniz:
+```bash
+npm install tailwindcss postcss autoprefixer
+```
 
-### `npm test`
+### 4️⃣ Uygulamayı Başlatın
+```bash
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Proje Yapısı
 
-### `npm run build`
+```
+/global-identity
+│-- public/          # Statik dosyalar (favicon, index.html vb.)
+│-- src/
+│   │-- assets/      # Görseller ve medya dosyaları
+│   │-- components/  # React bileşenleri
+│   │-- styles/      # CSS ve Tailwind dosyaları
+│   │-- App.tsx      # Ana uygulama bileşeni
+│   │-- index.tsx    # Root render işlemi
+│-- tailwind.config.js # Tailwind yapılandırması
+│-- postcss.config.js  # PostCSS yapılandırması
+│-- tsconfig.json   # TypeScript yapılandırması
+│-- package.json    # Proje bağımlılıkları ve komutları
+│-- README.md       # Proje dökümantasyonu
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔥 Kullanılan Teknolojiler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** (TSX ile)
+- **Tailwind CSS**
+- **TypeScript**
+- **Material UI Icons**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Karşılaşılabilecek Hatalar & Çözümleri
 
-### `npm run eject`
+### Tailwind CSS Çalışmıyor
+Eğer Tailwind sınıfları görünmüyorsa, aşağıdaki adımları deneyin:
+```bash
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+`index.css` içine şu satırları eklediğinizden emin olun:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Module Not Found` Hatası
+Bazı modüller eksikse, aşağıdaki komutları çalıştırın:
+```bash
+npm install
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `react-scripts: command not found` Hatası
+Eğer `npm start` çalışmıyorsa, şu komutları deneyin:
+```bash
+npm install react-scripts
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📜 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+📌 **Geliştirici:** [@tolgacavga](https://github.com/tolgacavga)
+🚀 **Proje Linki:** [GitHub](https://cavga1903.github.io/global-identity-9/)
 
-## Learn More
+# Global Identity
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Global Identity, kullanıcıların kimlik bilgilerini yönetmelerini ve hedef ülkelerini seçmelerini sağlayan bir React uygulamasıdır.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Proje Kurulumu
+
+Projeyi çalıştırmak için aşağıdaki adımları takip edin:
+
+### 1️⃣ Depoyu Klonlayın
+```bash
+git clone https://github.com/kullaniciadi/global-identity.git
+cd global-identity
+```
+
+### 2️⃣ Gerekli Paketleri Yükleyin
+```bash
+npm install
+```
+
+### 3️⃣ Tailwind CSS Yapılandırması
+Tailwind'in çalıştığından emin olmak için `tailwind.config.js` ve `postcss.config.js` dosyalarının oluşturulduğunu doğrulayın:
+```bash
+npx tailwindcss init -p
+```
+Eğer Tailwind CSS yüklenmemişse, şu komutla yükleyebilirsiniz:
+```bash
+npm install tailwindcss postcss autoprefixer
+```
+
+### 4️⃣ Uygulamayı Başlatın
+```bash
+npm start
+```
+
+## 📂 Proje Yapısı
+
+```
+/global-identity
+│-- public/          # Statik dosyalar (favicon, index.html vb.)
+│-- src/
+│   │-- assets/      # Görseller ve medya dosyaları
+│   │-- components/  # React bileşenleri
+│   │-- styles/      # CSS ve Tailwind dosyaları
+│   │-- App.tsx      # Ana uygulama bileşeni
+│   │-- index.tsx    # Root render işlemi
+│-- tailwind.config.js # Tailwind yapılandırması
+│-- postcss.config.js  # PostCSS yapılandırması
+│-- tsconfig.json   # TypeScript yapılandırması
+│-- package.json    # Proje bağımlılıkları ve komutları
+│-- README.md       # Proje dökümantasyonu
+```
+
+## 🔥 Kullanılan Teknolojiler
+
+- **React** (TSX ile)
+- **Tailwind CSS**
+- **TypeScript**
+- **Material UI Icons**
+
+## 🛠 Karşılaşılabilecek Hatalar & Çözümleri
+
+### Tailwind CSS Çalışmıyor
+Eğer Tailwind sınıfları görünmüyorsa, aşağıdaki adımları deneyin:
+```bash
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+`index.css` içine şu satırları eklediğinizden emin olun:
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### `Module Not Found` Hatası
+Bazı modüller eksikse, aşağıdaki komutları çalıştırın:
+```bash
+npm install
+npm start
+```
+
+### `react-scripts: command not found` Hatası
+Eğer `npm start` çalışmıyorsa, şu komutları deneyin:
+```bash
+npm install react-scripts
+```
+
+## 📜 Lisans
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
+
+---
+📌 **Geliştirici:** [@tolgacavga](https://github.com/tolgacavga)
+🚀 **Proje Linki:** [GitHub](https://github.com/kullaniciadi/global-identity)
+
