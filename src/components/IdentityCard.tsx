@@ -15,12 +15,12 @@ export default function IdentityCard() {
 
   return (
     
-    <div className="flex flex-col lg:flex-row gap-8 justify-center items-center h-screen bg-gradient-to-r from-green-100 to-green">
+    <div className="flex flex-col lg:flex-row gap-6 justify-center items-center min-h-screen bg-gradient-to-r from-green-100 to-green px-4">
     {/* 📌 background image */}
 
-        <div className="bg-white shadow-2xl rounded-xl w-[600px] h-[400px] flex overflow-hidden relative border border-gray-200">
+    <div className="bg-white shadow-2xl rounded-xl w-full max-w-[90%] md:max-w-[700px] lg:max-w-[800px] h-auto flex flex-col sm:flex-row overflow-hidden relative border border-gray-200">
         {/* left side */}
-        <div className="w-1/2 p-6 relative bg-white">
+        <div className="w-full sm:w-1/2 p-4 sm:p-6 relative bg-white">
           {/* The top part of the left side */}
             <h2 className="text-md font-semibold flex items-center">
                 <LanguageIcon className="text-gray-700 mr-2" />
@@ -46,7 +46,7 @@ export default function IdentityCard() {
         </div>
 
         {/* right side */}
-        <div className="w-1/2 bg-gradient-to-b from-green-200 to-green-100 flex flex-col justify-between items-center py-6 px-4">
+        <div className="w-full sm:w-1/2 bg-gradient-to-b from-green-200 to-green-100 flex flex-col justify-center items-center py-6 px-4">
           <div className="flex items-center">
             {/* Profile Photo Container */}
             <div className="flex justify-center">
@@ -86,7 +86,7 @@ export default function IdentityCard() {
 
         {/* This is the country selection section side */}
         {/* Country Selection Section */}
-        <div className="relative w-64 ms-8">
+        <div className="relative w-64 mx-auto lg:mx-0 lg:ml-6 mt-6 lg:mt-0">
   <select
     title="country-selecting"
     className="appearance-none w-full flex items-center px-4 py-2 border border-gray-100 rounded-lg shadow-sm bg-white text-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
