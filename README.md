@@ -8,7 +8,7 @@ Projeyi çalıştırmak için aşağıdaki adımları takip edin:
 
 ### 1️⃣ Depoyu Klonlayın
 ```bash
-git clone https://github.com/kullaniciadi/global-identity.git
+git clone https://github.com/Cavga1903/global-identity-9.git
 cd global-identity
 ```
 
