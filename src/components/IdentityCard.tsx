@@ -96,7 +96,7 @@ export default function IdentityCard() {
     {countries.map((country) => (
       <option key={country.value} value={country.value} className="flex items-center">
         <span className="inline-block w-6 h-6 rounded-full overflow-hidden mr-2">
-          {country.flag}
+          {country.flag}    
         </span>
         {country.label}
       </option>
